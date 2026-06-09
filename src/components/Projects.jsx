@@ -13,8 +13,8 @@ export default function Projects() {
         <div className="projects-grid">
           <article className="card project-card">
             <div className="project-header">
-              <h3>Pipeline e-commerce temps quasi réel</h3>
-              <span className="badge">Airflow · BigQuery</span>
+              <h3>Youtube Tech-sphere Radar</h3>
+              <span className="badge">Airflow · MinIO · Metabase</span>
             </div>
             <p>
               Ingestion de commandes et events web via Kafka, transformation en

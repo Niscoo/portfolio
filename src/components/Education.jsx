@@ -10,24 +10,31 @@ export default function Education() {
         <div className="education-grid">
           <div className="card">
             <h3>Master Data Engineering</h3>
-            <p className="muted">2024 — 2026 · Université Lumière</p>
+            <p className="muted">2025 — (en cours) · DSP </p>
             <p>
-              Architecture data, systèmes distribués, MLOps, gouvernance et sécurité.
+              Architecture data, ETL/ELT, data lakes, data warehouses, cloud platforms (AWS, GCP).
             </p>
           </div>
           <div className="card">
-            <h3>Licence Informatique</h3>
-            <p className="muted">2021 — 2024 · Université de Lyon</p>
-            <p>Programmation avancée, bases de données, cloud et DevOps.</p>
+            <h3>Master HPC</h3>
+            <p className="muted">2023 — 2025 · USTHB</p>
+            <p>
+              Big data, systèmes distribués, cloud computing. 
+            </p>
           </div>
           <div className="card">
+            <h3>Licence ISIL</h3>
+            <p className="muted">2020 — 2023 · USTHB</p>
+            <p>Algorithmiques, Programmation avancée, bases de données</p>
+          </div>
+          {/* <div className="card">
             <h3>Certifications</h3>
             <ul className="list">
               <li>Google Cloud Fundamentals (2025)</li>
               <li>Data Engineering with Python (2024)</li>
               <li>SQL Advanced for Analytics (2024)</li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
